@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Annocument from '../../components/annocument/Annocument'
+import React from 'react'
+import Announcement from '../../components/announcement/Announcemet'
 import Discount from '../../components/discount/Discount'
 import FlashDeals from '../../components/flashDeals/FlashDeals'
 import Main from '../../components/main/Main'
@@ -14,7 +14,7 @@ const HomePages = () => {
       <TopCate />
       <NewArrivals />
       <Discount />
-      <Annocument />
+      <Announcement />
     </div>
   )
 }
