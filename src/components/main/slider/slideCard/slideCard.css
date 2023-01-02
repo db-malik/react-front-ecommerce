@@ -1,0 +1,26 @@
+.sliderCard {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sliderCard .left {
+  flex: 1;
+}
+
+.sliderCard .right {
+  flex: 1;
+}
+
+.sliderCard .right img {
+  width: 70%;
+}
+
+.sliderCard .desc {
+  display: flex;
+
+  flex-direction: column;
+  gap: 2rem;
+}
