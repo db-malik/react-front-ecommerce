@@ -1,6 +1,10 @@
 const categoriesData = [
   {
     cateImg: './images/category/cat1.png',
+    cateName: 'Mobile',
+  },
+  {
+    cateImg: './images/category/cat1.png',
     cateName: 'Fashion',
   },
   {
